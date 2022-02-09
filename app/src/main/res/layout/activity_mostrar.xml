@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMostrar"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOMBRES: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtmostrarnombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abdiel Emanuel"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APELLIDOS: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtmostrarapellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Licona Escobar"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDAD: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtmostraredad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="21"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CORREO: "
+        android:textStyle="bold"
+
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtmostrarcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ejemplo@correo.com"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        />
+
+
+</LinearLayout>
